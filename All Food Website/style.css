@@ -10,19 +10,12 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 80px;
+  height: auto;
   padding: 10px;
 }
 header .logo > img {
   width: 100%;
   max-width: 110px;
-}
-header {
-  display: flex;
-  justify-content: space-between;
-  height: auto;
-  align-items: center;
-  width: 100%;
 }
 header .logo > img {
   width: 100%;
@@ -234,10 +227,9 @@ header .logo > img {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-}
-.book_table .table_container form {
   background-color: #fff;
-  padding: 10px;
+  padding: 20px;
+  border-radius: 5px;
 }
 .table_container input,
 select {
@@ -418,6 +410,3 @@ footer .copyright p {
     margin: 10px 0px;
   }
 }
-
-/* @media screen and (max-width: 600px) {
-} */
