@@ -8,6 +8,6 @@ A fully responsive HTML, CSS, and JavaScript web template designed for modern we
 * JavaScript (Vanilla JS)
 * Fontawesome Icons 
 
-**📁 Tech Stack:**
+**📁 Projects:**
 1.  [All Food Website](https://ncnaik-allfood.netlify.app/)
 2.  [Dovile Website](https://ncnaik-dovile.netlify.app/)
