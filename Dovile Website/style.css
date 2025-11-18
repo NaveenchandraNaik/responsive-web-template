@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  max-width: 1024px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.header img{
+  width: 100%;
+  max-width: 110px;
+}
+.header ul {
+  display: flex;
+}
+.header ul > li {
+  list-style: none;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+.hero-section {
+  background-color: rgb(255 245 245);
+  width: 100%;
+}
+.hero {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.right {
+  width: 50%;
+  padding: 20px;
+}
+.left {
+  width: 50%;
+  padding: 20px;
+}
+.left img {
+  width: 100%;
+}
+.right h1,
+.right p {
+  padding: 10px 0px;
+}
+.right button {
+  background-color: hsl(0deg 0% 27.06%);
+  color: white;
+  padding: 10px;
+  width: 100px;
+  cursor: pointer;
+}
+.feature-section {
+  max-width: 1024px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.feature-section img,
+.feature-section h1 {
+  font-size: clamp(16px,7vw,32px);
+  padding: 30px;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  text-align: center;
+}
+.intro-section {
+  width: 100%;
+  background-color: rgb(255 245 245);
+}
+.inner-section {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 63px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.inner-section h1 {
+  padding: 15px 0px;
+}
+.service-section {
+  width: 100%;
+}
+.service-section .right img {
+  width: 100%;
+}
+.service-info {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.service-info .right {
+  width: 50%;
+  padding: 20px;
+}
+.service-info .left {
+  width: 50%;
+  padding: 20px;
+}
+.left button {
+  background-color: hsl(0deg 0% 27.06%);
+  color: white;
+  padding: 10px;
+  width: 100px;
+  cursor: pointer;
+}
+.left h1,
+.left p {
+  padding: 10px 0px;
+}
+.detail-section {
+  width: 100%;
+  background-color: rgb(255 245 245);
+}
+.detail-section .inner-detail {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.sub-detail {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.sub-detail .sub-section {
+  max-width: 480px;
+  padding: 30px;
+}
+
+.blog-section{
+  width:100%;
+}
+.blog-section .blog-detail{
+  max-width: 1024px;
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.blog-section .right{
+  width: 50%;
+  padding: 20px;
+}
+.blog-section .left{
+  width: 50%;
+  padding: 20px;
+}
+.blog-section .right h1{
+  padding: 10px 0px;
+}
+.blog-section .right p{
+  padding: 10px 0px;
+}
+.author-section{
+  width: 100%;
+  background-color: rgb(255 245 245);
+}
+.author-detail{
+  max-width: 1024px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.author-detail .right{
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.author-detail .left{
+   width: 50%;
+  padding: 20px;
+}
+.author-detail img{
+  width: 10rem;
+}
+.footer{
+  width: 100% ;
+}
+.footer-img{
+  max-width: 1024px;
+  margin: 0 auto;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 15px 0px;
+}
+.footer-img img{
+  width: 10rem;
+  padding: 15px;
+}
+.footer-icon{
+  text-align: center;
+}
+.footer-icon .icon{
+    font-size: 24px;
+    padding: 5px;
+}
+.copyright{
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+}
+
+@media (max-width:450px){
+  .sub-detail{
+    flex-direction: column;
+  }
+  .sub-section{
+    width: 100%;
+  }
+}
+
+@media(max-width:420px){
+  .header{
+    height: auto;
+    padding: 20px;
+  }
+  .header ul{
+    flex-direction: column;
+    justify-content: center;
+    align-items:center
+  }
+ .detail-section .inner-detail h1{
+  text-align: center;
+ }
+}
